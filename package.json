@@ -1,0 +1,14 @@
+{
+  "name": "world-map-explorer",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.8.0",
+    "vite-plugin-solid": "^2.2.6"
+  }
+}

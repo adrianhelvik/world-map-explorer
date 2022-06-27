@@ -1,0 +1,41 @@
+app-map {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+app-map svg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 30px;
+  padding-bottom: 100px;
+  background: radial-gradient(circle, rgba(5,20,41,1) 47%, rgba(0,0,0,1) 100%);
+}
+
+app-map svg path {
+  transition: fill .3s;
+  fill: #c3dafa;
+}
+
+app-map.has-focus svg path {
+  fill: #304869;
+}
+
+app-map .app-map-tooltip {
+  pointer-events: none;
+  color: #d9e9ff;
+  width: fit-content;
+  background-color: #1e5bb3;
+  padding: 10px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
